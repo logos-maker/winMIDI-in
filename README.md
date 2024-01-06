@@ -1,6 +1,8 @@
 # winMIDI-in
 A MIDI in example in C code for Windows. It will print out incomming MIDI messages to the CMD command prompt. It's meant as a simple C code example to understand how to recive MIDI messages in Windows, for leaning purposes.
 
+It uses mmsystem.h that is a part of windows.h and the win32 api.
+
 ## Compilation on Windows
 MinGW-w64 can be used to compile the code on Windows. I would recommend downloading [TDM-GCC](https://jmeubank.github.io/tdm-gcc/articles/2021-05/10.3.0-release) and downloading the installer named tdm64-gcc-10.3.0-2.exe Then after that you should be able to compile from the CMD Command Prompt. You can compile to generate a plugin .dll with a command like...
 ```
